@@ -1,4 +1,3 @@
-
 import gym
 import time
 import random
@@ -6,6 +5,9 @@ import numpy as np
 import pickle
 import tensorflow as tf
 from collections import deque
+
+# 在MountainCar-v0 上面试验，效果不太好
+# 暂时不清楚错误在哪里，貌似算法实践没有错误
 
 ### Hyper-param
 
